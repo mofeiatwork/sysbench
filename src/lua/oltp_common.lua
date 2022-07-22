@@ -71,6 +71,8 @@ sysbench.cmdline.options = {
    reconnect =
       {"Reconnect after every N events. The default (0) is to not reconnect",
        0},
+   srquery = 
+      {"StarRocks Query", "select 1"},
    mysql_storage_engine =
       {"Storage engine, if MySQL is used", "innodb"},
    pgsql_variant =
